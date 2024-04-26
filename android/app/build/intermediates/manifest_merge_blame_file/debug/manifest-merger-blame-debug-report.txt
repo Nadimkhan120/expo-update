@@ -1,0 +1,159 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cheezious"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->[:expo-file-system] /Users/macbook/Documents/Cheezious/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+12-->[:expo-file-system] /Users/macbook/Documents/Cheezious/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->[:expo-file-system] /Users/macbook/Documents/Cheezious/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-80
+13-->[:expo-file-system] /Users/macbook/Documents/Cheezious/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-77
+14
+15    <queries>
+15-->[:expo-file-system] /Users/macbook/Documents/Cheezious/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-18:15
+16
+17        <!-- Query open documents -->
+18        <intent>
+18-->[:expo-file-system] /Users/macbook/Documents/Cheezious/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-17:18
+19            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+19-->[:expo-file-system] /Users/macbook/Documents/Cheezious/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-79
+19-->[:expo-file-system] /Users/macbook/Documents/Cheezious/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:21-76
+20        </intent>
+21    </queries>
+22    <!--
+23    This manifest file is used only by Gradle to configure debug-only capabilities
+24    for React Native Apps.
+25    -->
+26    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+26-->[com.facebook.react:react-android:0.74.0] /Users/macbook/.gradle/caches/transforms-4/813da8d64613d3a874726517fb776e54/transformed/jetified-react-android-0.74.0-debug/AndroidManifest.xml:16:5-78
+26-->[com.facebook.react:react-android:0.74.0] /Users/macbook/.gradle/caches/transforms-4/813da8d64613d3a874726517fb776e54/transformed/jetified-react-android-0.74.0-debug/AndroidManifest.xml:16:22-75
+27
+28    <permission
+28-->[androidx.core:core:1.12.0] /Users/macbook/.gradle/caches/transforms-4/fa7af3a95fe6fe0d8dd8f5a206929dbb/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+29        android:name="com.cheezious.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.12.0] /Users/macbook/.gradle/caches/transforms-4/fa7af3a95fe6fe0d8dd8f5a206929dbb/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.12.0] /Users/macbook/.gradle/caches/transforms-4/fa7af3a95fe6fe0d8dd8f5a206929dbb/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.cheezious.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.12.0] /Users/macbook/.gradle/caches/transforms-4/fa7af3a95fe6fe0d8dd8f5a206929dbb/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.12.0] /Users/macbook/.gradle/caches/transforms-4/fa7af3a95fe6fe0d8dd8f5a206929dbb/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:5:5-24:19
+35        android:name="com.cheezious.MainApplication"
+35-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:6:7-38
+36        android:allowBackup="false"
+36-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:10:7-34
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.12.0] /Users/macbook/.gradle/caches/transforms-4/fa7af3a95fe6fe0d8dd8f5a206929dbb/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+38        android:debuggable="true"
+39        android:extractNativeLibs="false"
+40        android:icon="@mipmap/ic_launcher"
+40-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:8:7-41
+41        android:label="@string/app_name"
+41-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:7:7-39
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:9:7-52
+43        android:testOnly="true"
+44        android:theme="@style/AppTheme"
+44-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:11:7-38
+45        android:usesCleartextTraffic="true" >
+45-->/Users/macbook/Documents/Cheezious/android/app/src/debug/AndroidManifest.xml:6:9-44
+46        <activity
+46-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:12:7-23:18
+47            android:name="com.cheezious.MainActivity"
+47-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:13:9-37
+48            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+48-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:15:9-118
+49            android:exported="true"
+49-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:18:9-32
+50            android:label="@string/app_name"
+50-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:14:9-41
+51            android:launchMode="singleTask"
+51-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:16:9-40
+52            android:windowSoftInputMode="adjustResize" >
+52-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:17:9-51
+53            <intent-filter>
+53-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:19:9-22:25
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:20:13-65
+54-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:20:21-62
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:21:13-73
+56-->/Users/macbook/Documents/Cheezious/android/app/src/main/AndroidManifest.xml:21:23-70
+57            </intent-filter>
+58        </activity>
+59
+60        <provider
+60-->[:expo-file-system] /Users/macbook/Documents/Cheezious/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-30:20
+61            android:name="expo.modules.filesystem.FileSystemFileProvider"
+61-->[:expo-file-system] /Users/macbook/Documents/Cheezious/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-74
+62            android:authorities="com.cheezious.FileSystemFileProvider"
+62-->[:expo-file-system] /Users/macbook/Documents/Cheezious/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-74
+63            android:exported="false"
+63-->[:expo-file-system] /Users/macbook/Documents/Cheezious/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-37
+64            android:grantUriPermissions="true" >
+64-->[:expo-file-system] /Users/macbook/Documents/Cheezious/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-47
+65            <meta-data
+65-->[:expo-file-system] /Users/macbook/Documents/Cheezious/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:70
+66                android:name="android.support.FILE_PROVIDER_PATHS"
+66-->[:expo-file-system] /Users/macbook/Documents/Cheezious/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-67
+67                android:resource="@xml/file_system_provider_paths" />
+67-->[:expo-file-system] /Users/macbook/Documents/Cheezious/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-67
+68        </provider>
+69
+70        <meta-data
+70-->[:expo-modules-core] /Users/macbook/Documents/Cheezious/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:89
+71            android:name="org.unimodules.core.AppLoader#react-native-headless"
+71-->[:expo-modules-core] /Users/macbook/Documents/Cheezious/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-79
+72            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+72-->[:expo-modules-core] /Users/macbook/Documents/Cheezious/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-86
+73        <meta-data
+73-->[:expo-modules-core] /Users/macbook/Documents/Cheezious/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-15:45
+74            android:name="com.facebook.soloader.enabled"
+74-->[:expo-modules-core] /Users/macbook/Documents/Cheezious/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-57
+75            android:value="true" />
+75-->[:expo-modules-core] /Users/macbook/Documents/Cheezious/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-33
+76
+77        <activity
+77-->[com.facebook.react:react-android:0.74.0] /Users/macbook/.gradle/caches/transforms-4/813da8d64613d3a874726517fb776e54/transformed/jetified-react-android-0.74.0-debug/AndroidManifest.xml:19:9-21:40
+78            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+78-->[com.facebook.react:react-android:0.74.0] /Users/macbook/.gradle/caches/transforms-4/813da8d64613d3a874726517fb776e54/transformed/jetified-react-android-0.74.0-debug/AndroidManifest.xml:20:13-77
+79            android:exported="false" />
+79-->[com.facebook.react:react-android:0.74.0] /Users/macbook/.gradle/caches/transforms-4/813da8d64613d3a874726517fb776e54/transformed/jetified-react-android-0.74.0-debug/AndroidManifest.xml:21:13-37
+80
+81        <provider
+81-->[androidx.emoji2:emoji2:1.2.0] /Users/macbook/.gradle/caches/transforms-4/1f0c06f94521237f79abc32a5f8de33d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.emoji2:emoji2:1.2.0] /Users/macbook/.gradle/caches/transforms-4/1f0c06f94521237f79abc32a5f8de33d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+83            android:authorities="com.cheezious.androidx-startup"
+83-->[androidx.emoji2:emoji2:1.2.0] /Users/macbook/.gradle/caches/transforms-4/1f0c06f94521237f79abc32a5f8de33d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+84            android:exported="false" >
+84-->[androidx.emoji2:emoji2:1.2.0] /Users/macbook/.gradle/caches/transforms-4/1f0c06f94521237f79abc32a5f8de33d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+85            <meta-data
+85-->[androidx.emoji2:emoji2:1.2.0] /Users/macbook/.gradle/caches/transforms-4/1f0c06f94521237f79abc32a5f8de33d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+86-->[androidx.emoji2:emoji2:1.2.0] /Users/macbook/.gradle/caches/transforms-4/1f0c06f94521237f79abc32a5f8de33d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+87                android:value="androidx.startup" />
+87-->[androidx.emoji2:emoji2:1.2.0] /Users/macbook/.gradle/caches/transforms-4/1f0c06f94521237f79abc32a5f8de33d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+88            <meta-data
+88-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/macbook/.gradle/caches/transforms-4/de53634973e45ba7b62012cb8e869aee/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+89-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/macbook/.gradle/caches/transforms-4/de53634973e45ba7b62012cb8e869aee/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+90                android:value="androidx.startup" />
+90-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/macbook/.gradle/caches/transforms-4/de53634973e45ba7b62012cb8e869aee/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+91        </provider>
+92    </application>
+93
+94</manifest>

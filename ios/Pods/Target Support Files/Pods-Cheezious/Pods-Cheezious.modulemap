@@ -1,0 +1,6 @@
+module Pods_Cheezious {
+  umbrella header "Pods-Cheezious-umbrella.h"
+
+  export *
+  module * { export * }
+}

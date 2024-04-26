@@ -1,0 +1,26 @@
+{
+  "name": "Cheezious",
+  "displayName": "Cheezious",
+  "expo": {
+    "name": "Cheezious",
+    "slug": "cheezious-customer",
+    "jsEngine": "hermes",
+    "ios": {
+      "bundleIdentifier": "com.cheezious"
+    },
+    "android": {
+      "package": "com.cheezious",
+      "versionCode": 2
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/10fddf52-c81e-46c2-af6f-c007a0f48a6d"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "10fddf52-c81e-46c2-af6f-c007a0f48a6d"
+      }
+    },
+    "owner": "nadeemkhan112"
+  }
+}

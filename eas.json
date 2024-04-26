@@ -1,0 +1,44 @@
+{
+  "cli": {
+    "version": ">= 7.8.5"
+  },
+  "build": {
+    "development": {
+      "distribution": "internal",
+      "android": {
+        "gradleCommand": ":app:assembleDebug",
+        "autoIncrement": "versionCode"
+      },
+      "ios": {
+        "buildConfiguration": "Debug",
+        "resourceClass": "m-medium",
+        "autoIncrement": "buildNumber"
+      },
+      "channel": "development"
+    },
+    "staging": {
+      "android": {
+        "buildType": "apk",
+        "autoIncrement": "versionCode"
+      },
+      "ios": {
+        "resourceClass": "m1-medium",
+        "autoIncrement": "buildNumber"
+      },
+      "channel": "staging"
+    },
+    "production": {
+      "ios": {
+        "resourceClass": "m1-medium"
+      },
+      "android": {
+        "buildType": "apk",
+        "autoIncrement": "versionCode"
+      },
+      "channel": "production"
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
